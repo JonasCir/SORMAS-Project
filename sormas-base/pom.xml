@@ -37,7 +37,7 @@
 		<resteasy.version>3.15.3.Final</resteasy.version>
 		<xdocreport.version>2.0.3</xdocreport.version>
 		<docx4j.version>8.3.2</docx4j.version>
-		<archunit.version>0.22.0</archunit.version>
+		<archunit.version>1.0.1</archunit.version>
 		<junit.version>5.9.1</junit.version>
 		<hamcrest.version>2.2</hamcrest.version>
 		<apache-tika.version>2.6.0</apache-tika.version>
