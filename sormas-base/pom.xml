@@ -1295,7 +1295,7 @@
 				<plugin>
 					<groupId>org.owasp</groupId>
 					<artifactId>dependency-check-maven</artifactId>
-					<version>6.5.3</version>
+					<version>8.1.2</version>
 					<configuration>
 						<cveValidForHours>12</cveValidForHours>
 						<formats>HTML,XML</formats>
