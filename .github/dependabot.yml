@@ -72,3 +72,15 @@ updates:
     directory: "/sormas-widgetset"
     schedule:
       interval: "daily"
+
+  # Maintain gradle dependencies for sormas-app
+  - package-ecosystem: "gradle"
+    directory: "/sormas-app"
+    schedule:
+      interval: "daily"
+
+  # Maintain gradle dependencies for sormas-e2e-tests
+  - package-ecosystem: "gradle"
+    directory: "/sormas-e2e-tests"
+    schedule:
+      interval: "daily"
