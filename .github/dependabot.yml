@@ -7,9 +7,79 @@ updates:
     schedule:
       interval: "daily"
 
-  # Maintain dependencies for maven
+  # Maintain dependencies for sormas-api
   - package-ecosystem: "maven"
-    directory: "/"
+    directory: "/sormas-api/"
     schedule:
       interval: "daily"
-      
+
+  # Maintain maven dependencies for sormas-app
+  - package-ecosystem: "maven"
+    directory: "/sormas-app"
+    schedule:
+      interval: "daily"
+
+  # Maintain maven dependencies for sormas-backend
+  - package-ecosystem: "maven"
+    directory: "/sormas-backend"
+    schedule:
+      interval: "daily"
+
+  # Maintain maven dependencies for sormas-base
+  - package-ecosystem: "maven"
+    directory: "/sormas-base"
+    schedule: "daily"
+
+  # Maintain maven dependencies for sormas-cargoserver
+  - package-ecosystem: "maven"
+    directory: "/sormas-cargoserver"
+    schedule:
+      interval: "daily"
+
+  # Maintain maven dependencies for sormas-demis-adapter/demis-importer
+  - package-ecosystem: "maven"
+    directory: "/sormas-demis-adapter/demis-importer"
+    schedule:
+      interval: "daily"
+
+  # Maintain maven dependencies for sormas-demis-adapter
+  - package-ecosystem: "maven"
+    directory: "/sormas-demis-adapter"
+    schedule:
+      interval: "daily"
+
+  # Maintain maven dependencies for sormas-ear
+  - package-ecosystem: "maven"
+    directory: "/sormas-ear"
+    schedule:
+      interval: "daily"
+
+  # Maintain maven dependencies for sormas-keycloak-service-provider
+  - package-ecosystem: "maven"
+    directory: "/sormas-keycloak-service-provider"
+    schedule:
+      interval: "daily"
+
+  # Maintain maven dependencies for sormas-rest
+  - package-ecosystem: "maven"
+    directory: "/sormas-rest"
+    schedule:
+      interval: "daily"
+
+  # Maintain maven dependencies for sormas-serverlibs
+  - package-ecosystem: "maven"
+    directory: "/sormas-serverlibs"
+    schedule:
+      interval: "daily"
+
+  # Maintain maven dependencies for sormas-ui
+  - package-ecosystem: "maven"
+    directory: "/sormas-ui"
+    schedule:
+      interval: "daily"
+
+  # Maintain maven dependencies for sormas-widgetset
+  - package-ecosystem: "maven"
+    directory: "/sormas-widgetset"
+    schedule:
+      interval: "daily"
