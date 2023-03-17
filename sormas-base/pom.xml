@@ -999,7 +999,7 @@
 			<dependency>
 				<groupId>com.ibm.etcd</groupId>
 				<artifactId>etcd-java</artifactId>
-				<version>0.0.19</version>
+				<version>0.0.22</version>
 			</dependency>
 
 			<!-- OIDC for S2S -->
