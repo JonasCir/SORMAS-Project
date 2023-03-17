@@ -28,24 +28,12 @@ updates:
   # Maintain maven dependencies for sormas-base
   - package-ecosystem: "maven"
     directory: "/sormas-base"
-    schedule: 
+    schedule:
       interval: "daily"
 
   # Maintain maven dependencies for sormas-cargoserver
   - package-ecosystem: "maven"
     directory: "/sormas-cargoserver"
-    schedule:
-      interval: "daily"
-
-  # Maintain maven dependencies for sormas-demis-adapter/demis-importer
-  - package-ecosystem: "maven"
-    directory: "/sormas-demis-adapter/demis-importer"
-    schedule:
-      interval: "daily"
-
-  # Maintain maven dependencies for sormas-demis-adapter
-  - package-ecosystem: "maven"
-    directory: "/sormas-demis-adapter"
     schedule:
       interval: "daily"
 
