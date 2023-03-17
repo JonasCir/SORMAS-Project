@@ -28,7 +28,8 @@ updates:
   # Maintain maven dependencies for sormas-base
   - package-ecosystem: "maven"
     directory: "/sormas-base"
-    schedule: "daily"
+    schedule: 
+      interval: "daily"
 
   # Maintain maven dependencies for sormas-cargoserver
   - package-ecosystem: "maven"
