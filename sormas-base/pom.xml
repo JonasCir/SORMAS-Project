@@ -602,7 +602,7 @@
 			<dependency>
 				<groupId>ca.uhn.hapi.fhir</groupId>
 				<artifactId>hapi-fhir-structures-r4</artifactId>
-				<version>5.7.0</version>
+				<version>6.6.0</version>
 				<scope>runtime</scope>
 			</dependency>
 
